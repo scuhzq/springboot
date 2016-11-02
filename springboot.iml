@@ -82,5 +82,8 @@
     <orderEntry type="library" name="Gradle: org.springframework:spring-orm:4.3.3.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.tomcat:tomcat-juli:8.5.5" level="project" />
     <orderEntry type="library" name="Gradle: xml-apis:xml-apis:1.4.01" level="project" />
+    <orderEntry type="library" name="Gradle: javax.servlet:javax.servlet-api:3.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.tomcat.embed:tomcat-embed-jasper:8.5.5" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jdt.core.compiler:ecj:4.5.1" level="project" />
   </component>
 </module>
