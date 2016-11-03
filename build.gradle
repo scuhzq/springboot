@@ -21,7 +21,7 @@ apply plugin: 'java'
 
 war{
     baseName = 'ROOT'
-    version = '1.0'
+//    version = '1.0'
 }
 
 dependencies {
@@ -34,6 +34,8 @@ dependencies {
     compile('org.springframework.boot:spring-boot-starter-data-jpa')
 
     compile('org.apache.tomcat.embed:tomcat-embed-jasper')
+
+    providedRuntime("org.springframework.boot:spring-boot-starter-tomcat")
 
     testCompile group: 'junit', name: 'junit', version: '4.11'
 }
