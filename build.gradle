@@ -40,8 +40,8 @@ dependencies {
 
     providedCompile("org.springframework.boot:spring-boot-starter-tomcat")
 
-    compile('tomcat:jasper-runtime')
-    compile('tomcat:jasper-compiler')
+    compile('tomcat:jasper-runtime:5.5.23')
+    compile('tomcat:jasper-compiler:5.5.23')
     compile('org.apache.tomcat.embed:tomcat-embed-core')
 
     testCompile group: 'junit', name: 'junit', version: '4.11'
