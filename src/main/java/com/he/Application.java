@@ -3,7 +3,7 @@ package com.he;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
-import org.springframework.boot.web.support.SpringBootServletInitializer;
+import org.springframework.boot.context.web.SpringBootServletInitializer;
 
 /**
  * Created by hzq on 16/10/27.
