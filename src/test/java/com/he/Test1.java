@@ -1,5 +1,6 @@
 package com.he;
 
+import com.he.core.SinaWbUtil;
 import com.he.domain.AbstractEntity;
 import com.he.util.MathUtil;
 import com.he.util.RandomUtil;
@@ -46,4 +47,9 @@ public class Test1 {
 		System.out.println(Integer.TYPE);
 	}
 
+	@Test
+	public void testWbShortUrl(){
+		String longUrl = "http://weike.duobeiyun.com/course/jz94cbf0ba24ac4cd3a2eec4a6d313e183";
+		System.out.println(SinaWbUtil.generateShortUrlByWb(longUrl));
+	}
 }
