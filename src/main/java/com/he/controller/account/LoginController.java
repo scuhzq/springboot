@@ -9,9 +9,29 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class LoginController {
 
-	@RequestMapping({"", "/"})
+	@RequestMapping({"", "/", "/index"})
 	public String login(){
 		return "index";
+	}
+
+	@RequestMapping("/baobao")
+	public String about(){
+		return "baobao";
+	}
+
+	@RequestMapping("/gege")
+	public String services(){
+		return "gege";
+	}
+
+	@RequestMapping("/we")
+	public String portfolio(){
+		return "we";
+	}
+
+	@RequestMapping("/love")
+	public String contact(){
+		return "love";
 	}
 
 }
