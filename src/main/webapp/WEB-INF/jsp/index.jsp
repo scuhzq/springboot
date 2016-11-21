@@ -8,6 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
+    <meta property="wb:webmaster" content="c4bc32866f16ea63" />
     <title>宁宝宝</title>
   </head>
   <body>
