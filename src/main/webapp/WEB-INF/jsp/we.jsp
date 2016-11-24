@@ -9,6 +9,7 @@
 <html>
 <head>
 	<title>we</title>
+	<h1>git reset --hard</h1>
 </head>
 <body>
 
